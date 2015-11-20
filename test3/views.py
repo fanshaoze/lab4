@@ -8,7 +8,7 @@ from django.template import Context
 from django.shortcuts import render_to_response
 from models import *
 from django.http import HttpResponseRedirect
-
+B3change
 def showbooks(request):
     book_list = Book.objects.all()
     c = Context({"book_list": book_list})

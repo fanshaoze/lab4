@@ -7,6 +7,7 @@ from test3.views import *
 # from django.contrib import admin
 # admin.autodiscover()
 
+
 urlpatterns = patterns('',
     # Examples:
     # url(r'^$', 'test3.views.home', name='home'),
@@ -21,5 +22,6 @@ urlpatterns = patterns('',
     (r'^delete/$',deletebook),
     (r'^show_book/$',showbooks2),
     (r'^show_author_books/$',searchbook),
+	B3change
     #(r'^medias/(?P<path>.*)$', 'django.views.static.serve', {'document_root': settings.MEDIA_ROOT}),
 )
